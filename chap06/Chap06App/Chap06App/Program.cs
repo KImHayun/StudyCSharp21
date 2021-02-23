@@ -17,9 +17,13 @@ namespace Chap06App
 
         }
 
-        private static int Plus(int v1, int v2)
+        private static int Plus(int p1, int p2)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException()
+            Console.WriteLine($"Input: {p1}, {p2}");
+            int result = p1 + p2;
+            Console.WriteLine($"Output: {result}");
+            return result;
         }
     }
 }
