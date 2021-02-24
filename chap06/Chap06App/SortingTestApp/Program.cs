@@ -11,18 +11,18 @@ namespace SortingTestApp
         static void Main(string[] args)
         {
             int x = 47, y = 5;
+            Console.WriteLine($"Before Swap {x}, {y}");
 
-            Program.Swap(ref x, ref y);
+            Program.Swap(/*ref*/ x, /*ref*/ y); // 정렬 기반
 
-            Console.WriteLine($"After swqp {x}, {y}");
-
+            Console.WriteLine($"After Swap {x}, {y}");
         }
-        private static void Swap(ref int p1, ref int p2)
+
+        private static void Swap(/*ref*/ int p1, /*ref*/ int p2)
         {
             int temp = p1; // temp = 47
-            p1 = p2; //p1 =5, p2=5
-            p2 = temp; // p2=47
-
+            p1 = p2; // p1 = 5, p2 = 5
+            p2 = temp; // p2 = 47
         }
     }
 }

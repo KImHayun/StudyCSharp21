@@ -10,24 +10,29 @@ namespace ProfileTestApp
     {
         static void Main(string[] args)
         {
-            printProfile("김하윤", "010-1234-56");
-            Console.WriteLine("프로그램 출력 시 오류가 발생.");
+            PrintProfile("성명건", "010-6683-7732");
 
+            if (PrintProfile(null, "010-1111-2222") == -1)
+            {
+                Console.WriteLine("프로필 출력시 오류가 발생했습니다.");
+            }
+
+            //PrintProfile(phone: "010-9999-9999", name: "홍길동");
+            //PrintProfile(name: "홍길순", phone: "010-8888-8888");
+            PrintProfile(phone: "010-4987-5644");
         }
-      
-            
 
-        public static void printProfile(String name, string phone)
-
+        public static int PrintProfile(string name = "홍길동", string phone = "010-7979-7979")
         {
             if (string.IsNullOrEmpty(name))
             {
-                Console.WriteLine("이름을 정확히 입력하시오.");
-                
+                Console.WriteLine("이름을 정확히 입력하세요.");
+                return -1;
             }
-            /* 프로필 출력 */
-            Console.WriteLine($"이름: {name}, 폰번호 : {phone}");
-            return 0; 
-        }         
+
+            // 프로필 출력
+            Console.WriteLine($"이름 : {name}, 폰번호 : {phone}");
+            return 0;
+        }
     }
 }

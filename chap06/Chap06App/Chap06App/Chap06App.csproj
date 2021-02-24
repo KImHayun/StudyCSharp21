@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6A88BE54-495A-4EB8-A8AA-C75DD56A6E43}</ProjectGuid>
+    <ProjectGuid>{79CBF649-B9B3-411B-9F5A-725B7F12E898}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Chap06App</RootNamespace>
     <AssemblyName>Chap06App</AssemblyName>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Calculator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
