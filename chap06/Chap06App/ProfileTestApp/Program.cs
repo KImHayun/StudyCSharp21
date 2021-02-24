@@ -12,8 +12,11 @@ namespace ProfileTestApp
         {
             printProfile("김하윤", "010-1234-56");
             Console.WriteLine("프로그램 출력 시 오류가 발생.");
+
         }
-    
+      
+            
+
         public static void printProfile(String name, string phone)
 
         {
