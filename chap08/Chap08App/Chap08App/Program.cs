@@ -17,7 +17,7 @@ namespace Chap08App
         public void WriteLog(string msg)
         {
 
-            Console.WriteLine($"{ new DateTime.Now.ToShortDateString()} log : {msg}");
+            Console.WriteLine($"{DateTime.Now} log : {msg}");
         }
     }
     class Program
