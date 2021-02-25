@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverrideTestApp", "OverrideTestApp\OverrideTestApp.csproj", "{7C84B699-4A80-4BF0-9168-B5A1277A3E9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartialClassApp", "PartialClassApp\PartialClassApp.csproj", "{B032AF2D-0B4C-47C6-8D6F-F20F6CA9E9D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C84B699-4A80-4BF0-9168-B5A1277A3E9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C84B699-4A80-4BF0-9168-B5A1277A3E9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C84B699-4A80-4BF0-9168-B5A1277A3E9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C84B699-4A80-4BF0-9168-B5A1277A3E9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B032AF2D-0B4C-47C6-8D6F-F20F6CA9E9D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032AF2D-0B4C-47C6-8D6F-F20F6CA9E9D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032AF2D-0B4C-47C6-8D6F-F20F6CA9E9D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032AF2D-0B4C-47C6-8D6F-F20F6CA9E9D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3581986C-F45E-42F5-8CDD-4E6818711CC2}
+	EndGlobalSection
+EndGlobal
