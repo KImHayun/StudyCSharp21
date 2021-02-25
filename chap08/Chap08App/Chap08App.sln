@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap08App", "Chap08App\Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiInterfaceApp", "MultiInterfaceApp\MultiInterfaceApp.csproj", "{3EA6BCE5-9993-4C9E-B4F8-AB1B24BF920E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertTestApp", "..\..\chap09\PropertTestApp\PropertTestApp.csproj", "{AA41476D-4F8D-4E48-A3BC-2885EFB286E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap09App", "..\..\chap09\Chap09App\Chap09App.csproj", "{283B8314-3920-48A7-BB98-D9A2547957D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{3EA6BCE5-9993-4C9E-B4F8-AB1B24BF920E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EA6BCE5-9993-4C9E-B4F8-AB1B24BF920E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EA6BCE5-9993-4C9E-B4F8-AB1B24BF920E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA41476D-4F8D-4E48-A3BC-2885EFB286E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA41476D-4F8D-4E48-A3BC-2885EFB286E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA41476D-4F8D-4E48-A3BC-2885EFB286E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA41476D-4F8D-4E48-A3BC-2885EFB286E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{283B8314-3920-48A7-BB98-D9A2547957D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{283B8314-3920-48A7-BB98-D9A2547957D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{283B8314-3920-48A7-BB98-D9A2547957D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{283B8314-3920-48A7-BB98-D9A2547957D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
