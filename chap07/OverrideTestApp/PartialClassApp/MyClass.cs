@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace PartialClassApp
 {
-    partial class Myclass
+    partial class MyClass
     {
-        static void Main(string[] args)
-        {
-        }
+        public void Method1() { Console.WriteLine("Method1"); }
+        public void Method2() { Console.WriteLine("Method2"); }
     }
 }
