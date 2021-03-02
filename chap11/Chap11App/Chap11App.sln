@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chap11App", "Chap11App\Chap11App.csproj", "{82B991C3-4182-4B33-8D0C-58C98EA5DF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericCopyArrayApp", "GenericCopyArrayApp\GenericCopyArrayApp.csproj", "{6D2B767A-1B9B-4837-8A19-D068D9A30E45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassApp", "GenericClassApp\GenericClassApp.csproj", "{5AB94D61-266C-4F28-B5E4-03ED1582E256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericListApp", "GenericListApp\GenericListApp.csproj", "{1CF0D876-6A5A-4F4B-ACDE-AFB7ECD45E00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DictionaryApp", "DictionaryQpp\DictionaryApp.csproj", "{D29ABCAF-F885-492B-A83A-5B7B6E64AC3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChapApp12", "..\..\chap12\ChapApp12\ChapApp12.csproj", "{7B2586F2-92D0-4303-9B77-CB635AFF8E88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82B991C3-4182-4B33-8D0C-58C98EA5DF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82B991C3-4182-4B33-8D0C-58C98EA5DF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82B991C3-4182-4B33-8D0C-58C98EA5DF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82B991C3-4182-4B33-8D0C-58C98EA5DF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D2B767A-1B9B-4837-8A19-D068D9A30E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D2B767A-1B9B-4837-8A19-D068D9A30E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D2B767A-1B9B-4837-8A19-D068D9A30E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D2B767A-1B9B-4837-8A19-D068D9A30E45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB94D61-266C-4F28-B5E4-03ED1582E256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB94D61-266C-4F28-B5E4-03ED1582E256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB94D61-266C-4F28-B5E4-03ED1582E256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB94D61-266C-4F28-B5E4-03ED1582E256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF0D876-6A5A-4F4B-ACDE-AFB7ECD45E00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF0D876-6A5A-4F4B-ACDE-AFB7ECD45E00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF0D876-6A5A-4F4B-ACDE-AFB7ECD45E00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF0D876-6A5A-4F4B-ACDE-AFB7ECD45E00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29ABCAF-F885-492B-A83A-5B7B6E64AC3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29ABCAF-F885-492B-A83A-5B7B6E64AC3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29ABCAF-F885-492B-A83A-5B7B6E64AC3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29ABCAF-F885-492B-A83A-5B7B6E64AC3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B2586F2-92D0-4303-9B77-CB635AFF8E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B2586F2-92D0-4303-9B77-CB635AFF8E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B2586F2-92D0-4303-9B77-CB635AFF8E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B2586F2-92D0-4303-9B77-CB635AFF8E88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C871ADCC-2C52-463C-A576-4020EB887B41}
+	EndGlobalSection
+EndGlobal
