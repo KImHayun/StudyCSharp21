@@ -110,5 +110,10 @@ namespace FileCopyApp
             long totalCopied = await CopyAsync(TxtSource.Text, TxtTarget.Text);
             MessageBox.Show($"{totalCopied}로 복사했습니다!", "비동기복사완료");
         }
+
+        private void TxtSource_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

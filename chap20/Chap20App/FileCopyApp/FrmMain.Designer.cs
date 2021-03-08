@@ -65,6 +65,7 @@ namespace FileCopyApp
             this.TxtSource.Name = "TxtSource";
             this.TxtSource.Size = new System.Drawing.Size(273, 21);
             this.TxtSource.TabIndex = 2;
+            this.TxtSource.TextChanged += new System.EventHandler(this.TxtSource_TextChanged);
             // 
             // TxtTarget
             // 
